@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-night: #0b0f0e;
+  --color-card: #151b19;
+  --color-card-2: #1c2421;
+  --color-line: #263028;
+  --color-mint: #4ade9c;
+  --color-mint-dim: #2c4a3c;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  background: #050807;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+input[type="range"] {
+  accent-color: var(--color-mint);
+}
